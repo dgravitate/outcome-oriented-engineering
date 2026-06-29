@@ -53,22 +53,43 @@ It needs to be coherent.
 
 Goal: define how outcomes move from intention to validation.
 
-Likely topics:
-
-- Outcome lifecycle
-- Evidence requirements
-- Evidence sufficiency
-- Stale evidence
-- Conflicting evidence
-- Outcome completion
-- Outcome reopening
-- Outcome invalidation
-
-Potential OOEPs:
+### Included in the 0.2 draft
 
 - Outcome Lifecycle
 - Evidence Model
-- Evidence Sufficiency
+- Authentication outcome example
+
+### Topics introduced
+
+- Outcome progression from Proposed to Validated
+- Exceptional states such as Blocked, Reopened, and Abandoned
+- The distinction between activity, observation, evidence, and validation
+- Claims as the target of evidence
+- Evidence sufficiency
+- Evidence freshness
+- Conflicting evidence
+- Reopening validated outcomes when later evidence changes what is known
+
+### Explicitly deferred
+
+- Formal evidence scoring
+- Machine-readable evidence schemas
+- Engineering state model
+- Relationship model
+- Belief model
+- Worker protocol
+- Idempotent actions
+- Runtime behavior
+
+### Success criteria
+
+Version 0.2 succeeds if an experienced engineer can read the specification and understand:
+
+- How an outcome moves from intention to validation
+- Why validation requires evidence
+- How observations become evidence
+- Why evidence may be insufficient, stale, or conflicting
+- How an outcome can be reopened when later evidence changes engineering reality
 
 ## Version 0.3: Engineering State
 
