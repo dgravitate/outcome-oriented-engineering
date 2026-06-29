@@ -1,5 +1,7 @@
 # Foundations of Software Engineering
 
+*An exploration of the underlying nature of software engineering.*
+
 Software engineering is commonly described as the practice of designing, building, testing, deploying, and maintaining software.
 
 These activities are essential.
@@ -105,4 +107,3 @@ Software engineering has never been the practice of producing software.
 It has always been the practice of changing reality until desired outcomes become true.
 
 Outcome-Oriented Engineering begins with that observation.
-
