@@ -1,6 +1,6 @@
 # OOEP-0003: Evidence Model
 
-Status: Draft  
+Status: Accepted  
 Author: David Graves  
 Created: 2026-07-01  
 Type: Specification  
