@@ -46,14 +46,20 @@ Read these documents in order:
 6. [`spec/03-evidence-model.md`](spec/03-evidence-model.md)  
    Defines how observations become evidence and how evidence supports validation.
 
-7. [`examples/01-authentication-outcome.md`](examples/01-authentication-outcome.md)  
+7. [`spec/04-engineering-state.md`](spec/04-engineering-state.md)  
+   Defines how OOE represents the current known state of engineering reality.
+
+8. [`examples/01-authentication-outcome.md`](examples/01-authentication-outcome.md)  
    Demonstrates the lifecycle and evidence model with a practical authentication example.
 
-8. [`governance/OOEP-0001-governance.md`](governance/OOEP-0001-governance.md)  
-   Describes how OOE evolves through Outcome-Oriented Engineering Proposals.
+9. [`examples/02-engineering-state-snapshot.md`](examples/02-engineering-state-snapshot.md)  
+   Demonstrates how lifecycle status, evidence, and Engineering State fit together.
 
-9. [`ROADMAP.md`](ROADMAP.md)  
-   Describes the planned evolution of the discipline and specification.
+10. [`governance/OOEP-0001-governance.md`](governance/OOEP-0001-governance.md)  
+    Describes how OOE evolves through Outcome-Oriented Engineering Proposals.
+
+11. [`ROADMAP.md`](ROADMAP.md)  
+    Describes the planned evolution of the discipline and specification.
 
 ## Current status
 
@@ -61,9 +67,9 @@ OOE is in draft form.
 
 The purpose of this public draft is to make the core idea precise enough to discuss, challenge, refine, and eventually implement.
 
-The current draft defines the foundation, core primitives, outcome lifecycle, and evidence model.
+The current draft defines the foundation, core primitives, outcome lifecycle, evidence model, and Engineering State.
 
-Some concepts are intentionally absent from this draft. Ideas such as engineering state, relationships, beliefs, reusable schemas, reference runtimes, and implementation protocols will be introduced only after the foundation is stable enough to support them.
+Some concepts are intentionally absent from this draft. Ideas such as relationships, beliefs, reusable schemas, reference runtimes, worker protocols, and implementation protocols will be introduced only after the foundation is stable enough to support them.
 
 ## Design goals
 
