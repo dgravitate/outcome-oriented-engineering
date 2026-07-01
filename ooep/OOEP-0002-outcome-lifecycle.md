@@ -2,7 +2,7 @@
 
 Status: Draft  
 Author: David Graves  
-Created: 2026-06-28  
+Created: 2026-07-01  
 Type: Specification  
 Requires: OOEP-0001  
 Supersedes: None
