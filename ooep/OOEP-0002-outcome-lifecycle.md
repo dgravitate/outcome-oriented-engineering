@@ -1,6 +1,6 @@
 # OOEP-0002: Outcome Lifecycle
 
-Status: Draft  
+Status: Accepted  
 Author: David Graves  
 Created: 2026-07-01  
 Type: Specification  
