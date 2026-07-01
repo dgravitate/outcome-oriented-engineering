@@ -1,6 +1,6 @@
 # OOEP-0001: Governance of Outcome-Oriented Engineering
 
-Status: Draft  
+Status: Accepted  
 Author: David Graves  
 Created: 2026-06-28  
 Type: Process  
