@@ -40,19 +40,30 @@ Read these documents in order:
 4. [`spec/01-core-primitives.md`](spec/01-core-primitives.md)  
    Defines the minimal vocabulary used by the first draft of the specification.
 
-5. [`governance/OOEP-0001-governance.md`](governance/OOEP-0001-governance.md)  
+5. [`spec/02-outcome-lifecycle.md`](spec/02-outcome-lifecycle.md)  
+   Defines how outcomes move from intention to validated reality.
+
+6. [`spec/03-evidence-model.md`](spec/03-evidence-model.md)  
+   Defines how observations become evidence and how evidence supports validation.
+
+7. [`examples/01-authentication-outcome.md`](examples/01-authentication-outcome.md)  
+   Demonstrates the lifecycle and evidence model with a practical authentication example.
+
+8. [`governance/OOEP-0001-governance.md`](governance/OOEP-0001-governance.md)  
    Describes how OOE evolves through Outcome-Oriented Engineering Proposals.
 
-6. [`ROADMAP.md`](ROADMAP.md)  
+9. [`ROADMAP.md`](ROADMAP.md)  
    Describes the planned evolution of the discipline and specification.
 
 ## Current status
 
 OOE is in draft form.
 
-The purpose of this first public draft is to make the core idea precise enough to discuss, challenge, refine, and eventually implement.
+The purpose of this public draft is to make the core idea precise enough to discuss, challenge, refine, and eventually implement.
 
-Some concepts are intentionally absent from this draft. Ideas such as engineering state, relationships, beliefs, reusable specifications, reference runtimes, and implementation protocols will be introduced only after the foundation is stable enough to support them.
+The current draft defines the foundation, core primitives, outcome lifecycle, and evidence model.
+
+Some concepts are intentionally absent from this draft. Ideas such as engineering state, relationships, beliefs, reusable schemas, reference runtimes, and implementation protocols will be introduced only after the foundation is stable enough to support them.
 
 ## Design goals
 
