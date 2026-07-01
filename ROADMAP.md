@@ -53,7 +53,7 @@ It needs to be coherent.
 
 Goal: define how outcomes move from intention to validation.
 
-### Included in the 0.2 draft
+### Included
 
 - Outcome Lifecycle
 - Evidence Model
@@ -95,21 +95,49 @@ Version 0.2 succeeds if an experienced engineer can read the specification and u
 
 Goal: define how OOE represents the current known state of engineering reality.
 
-Likely topics:
+### Included in the 0.3 draft
 
-- Engineering state
-- State transitions
-- State snapshots
-- State history
-- Unknown or uncertain state
-- Derived state
-- Relationship between observations, evidence, and state
+- Engineering State proposal
+- Engineering State specification
+- Engineering State snapshot example
 
-Potential OOEPs:
+### Topics introduced
 
-- Engineering State Model
-- Observation Semantics
-- State Transition Semantics
+- Engineering State as the current known, evidence-backed representation of engineering reality
+- State Subjects
+- State Claims
+- State Snapshots
+- State Transitions
+- State History
+- Unknowns
+- Decisions
+- Assumptions
+- Risks
+- Relationship between lifecycle status, evidence, and state
+
+### Explicitly deferred
+
+- Formal machine-readable state schemas
+- Graph model
+- Database model
+- Synchronization protocol
+- Worker protocol
+- Runtime engine
+- UI representation
+- Relationship model
+- Belief model
+- Derived state semantics
+
+### Success criteria
+
+Version 0.3 succeeds if an experienced engineer can read the specification and understand:
+
+- What Engineering State is
+- Why Engineering State is not the same as code, tickets, deployment state, or worker memory
+- How Engineering State preserves durable knowledge
+- How State Claims differ from evidence
+- How unknowns, assumptions, decisions, and risks remain visible
+- How State Transitions explain changes in what is known about reality
 
 ## Version 0.4: Relationships and Impact
 
